@@ -1,0 +1,97 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+#header a
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: bold;
+}
+#header a:hover
+{
+    color: rgb(156, 9, 4);
+    transition: 0.3s;
+}
+#new
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+
+}
+#new h1
+{
+    font-family: 'Delicious Handrawn', cursive;
+    color: white;
+}
+#new_products
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/776/642/375/black-dark-textures-2558x1562-abstract-textures-hd-art-wallpaper-preview.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Delicious Handrawn', cursive;
+}
+#new_products p
+{
+    font-size: 22px;
+    margin-top: -10px;
+    width: 100%;
+}
+.product1, .product2, .product3
+{
+    width: 25%;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.product1 > img, .product2 > img, .product3 > img
+{
+    width: 100%;
+    height: 90%;
+}
+.product1 > img:hover, .product2 > img:hover, .product3 > img:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#products
+{    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Delicious Handrawn', cursive;
+}
+.products1, .products2, .products3
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 24%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.products1 > img, .products2 > img, .products3 > img
+{
+    width: 100%;
+    height: 95%;
+}
