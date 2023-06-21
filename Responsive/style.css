@@ -84,14 +84,15 @@ body
 }
 .products1, .products2
 {
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 30px;
     margin-bottom: 50px;
     width: 30%;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .products1 > img, .products2 > img, .products3 > img
 {
     width: 100%;
-    height: 95%;
+    height: 85%;
 }
