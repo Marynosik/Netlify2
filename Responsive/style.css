@@ -26,6 +26,7 @@ body
 }
 #new
 {
+    text-align: center;
     display: flex;
     width: 100%;
     justify-content: center;
