@@ -35,9 +35,7 @@ body
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 20px;
-
+    padding-top: 40px;
 }
 #new h1
 {
@@ -85,6 +83,7 @@ body
     justify-content: center;
     background-color: rgb(255, 255, 255);
     font-family: 'Delicious Handrawn', cursive;
+    font-size: 25px;
 }
 .products1, .products2
 {
@@ -96,11 +95,12 @@ body
 }
 .products1 > img, .products2 > img, .products3 > img
 {
-    max-width: 100%;
+    max-width: 120%;
     height: 77%;
 }
 #footer
 {
+    margin-top: 100px;
     width: 100%;
     height: 100px;
     background-image: url('https://free4kwallpapers.com/uploads/originals/2021/01/10/k-dark-wallpaper.jpg');
