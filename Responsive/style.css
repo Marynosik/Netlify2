@@ -83,20 +83,19 @@ body
     justify-content: center;
     background-color: rgb(255, 255, 255);
     font-family: 'Delicious Handrawn', cursive;
-    font-size: 25px;
+    align-items: center;
 }
 .products1, .products2
 {
     text-align: center;
     margin-bottom: 20px;
-    width: 33%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 20%;
+    font-size: 18px;
 }
 .products1 > img, .products2 > img, .products3 > img
 {
-    max-width: 120%;
-    height: 77%;
+    max-width: 90%;
+    height: 70%;
 }
 #footer
 {
