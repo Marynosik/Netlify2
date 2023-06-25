@@ -2,7 +2,6 @@ body
 {
     margin: 0;
     padding: 0;
-    background-color: rgb(239, 247, 247);
 }
 #header
 {
@@ -71,13 +70,12 @@ body
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: rgb(239, 247, 247);
     font-family: 'Delicious Handrawn', cursive;
     align-items: center;
 }
 .products1, .products2
 {
-    margin-top: 70px;
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
     width: 50%;
